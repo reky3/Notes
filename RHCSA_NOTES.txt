@@ -1,0 +1,473 @@
+=======================================================
+
+	RHCSA
+
+=======================================================
+
+	Essential Tools
+
+ip addr -4 show
+ip a -4
+ip a -6
+or ip -4 a
+man ip
+man man
+ip addrs help
+
+!!!!!
+ls /usr/share/doc
+-information about some commands (sysstat)
+
+tty
+hostnamectl
+
+	ctrl+L = clear screen
+
+ss -ntl
+ss = show socket (methinks)
+
+	Understanding Shell Redirections
+
+STDOUT & STDERR
+stnadart output and biaozhun error
+
+redirecting STDOUT
+use > or >>
+redisrecting STDERR
+use 2> or 2>> (append or overwrite)
+
+ls -l /etc/Hosts 2> error
+
+redirecting BOTH STDPUT and STDERR
+use &>
+ls -l /etc/hosts /etc/Hosts &> log
+
+redirect input
+using HEREDOCS
+
+cat > story.txt. <<END
+Line 1
+Line 2
+END
+ with this we can create txt documents
+multiline files
+any keyword can be used taht will NOT appear in the txt file
+
+	command Tee
+sometimes for redirecting we need the rights - so sudo?
+no - bcs if we put sudo it thinks we need sudo for echo,
+but thats not the case
+thats why for redorection we use tee command
+
+$ sudo echo "1.0.0.1 cloudflare" >> /etc/hosts # gives error
+$ echo "1.0.0.1 cloudflare" | sudo tee -a /etc/hosts
+now it works!
+
+
+===============================
+	text editors
+===============================
+
+
+$ sudo yum repolist
+those repos you see only if you have developer subscription
+$ sudo yum install -y vim nano bash-completion
+you can run this command only if you have the subscrip.
+
+-y is there because we want to avoid them asking us if we want installation
+y already stands for yes
+
+	escape + Dot = gives you the last (command? prompt?)
+ and whe n you write cmmd and then ctrl l = youll get clear screeen but
+still with your commnad there
+
+
+
+	Nano
+nothing new, primitivne
+
+	Vi
+3 modes: normal, editing(i for insert and a for append), ex mode
+ 
+ex mode allows us to save or quit (x - save and exit, q! - quit w/o saving)
+
+there is a vimtutor to learn vim
+ use hjkl keys to move
+
+
+======================================
+$ sudo grep ^Password /etc/ssh/sshd_conofig
+^Password means the line should start with the word Password
+
+$ sudo wc -l /etc/ssh/sshd_config
+- will write nyumber of lines in that file
+
+$ sudo grep -vE '^(#|$)' /etc/ssh/sshd_config | wc -l
+how me blank spaces nor lines that start with # 
+not sure what $ is for.... something with the end? maybe
+v - inverse search
+E - bcs we use regu;ar expression
+$ - is the end of line - aka if i understood correctly
+it means empty lines
+
+$ grep bash$ /etc/passwd
+bash$ means that the line will finish w/ the word bash
+
+how to see perms?
+$ ls -l /etc/shadow
+$ stat /etc/hosts
+$ stat -c %a /etc/hosts
+
+File Types
+file, directory. link, pipe (p), block/character(b/c), socket (s)
+
+(test is directory)
+$ ls -ld test
+it will show perms only for the directory
+wont show contents of it
+
+$ stat -c %a errot
+664
+$ stat -c %A error
+-rw-rw-r--
+
+$ ls -l $(tty)
+-its a c - aka its a block/char device
+
+$ sudo chown vagrant: file1
+if we leave out after: - it implicitly means that
+we want to change both root and group to the same owner
+aka here vagrant
+
+
+==============================
+	hard links
+
+$ ls -ld new_dir
+shows 2 hard liinks
+
+$ ls -ldi new_dir/ new_dir/.
+still shows 2 links
+and we can see they have the samem inode
+
+$ mkdir new_dir/subdir1 ; ls -ld new_dir/
+now it has changed to 3 hard links
+
+look with ; i could exec 2 commands
+what is the diff btw ; && and ;exec?
+
+$ ln /etc/services ports
+
+soft links
+$ ln -s /etc/services ports
+
+--------------------
+switch groups
+
+$ newgrp wheel # opens new shell
+$ touch new_gid_file ; ls -l new_gid_file
+we see it change the group from vagrant to wheel
+$ exit # return to previous shell
+
+OR
+
+$ sg wheel
+----------------
+
+mkdir -m 155 dir2
+
+---------------
+
+	TAR
+
+$ sudo du -sh /etc
+$ tar -cvf etc.tar /etc
+$ tar -xf etc.tar
+-it shows its contents
+
+star - quicker tar
+$ star -c -f etc.tar /etc
+here prepinace sa nedaju kombinovat
+also you might need to install this command
+
+-------------------
+
+	GZ BZ
+
+creating a zipped archive
+$ tar -czf (gzip)
+$ tar -cjf (bzip2)
+
+
+
+
+====================================================
+
+=		SECURITY ENHANCED LINUX		   =
+
+====================================================
+
+
+$ ssh-keygen -t
+shows us types of keys
+
+to cache passphrase from ssh key
+$ eval $(ssh-agent)
+-thats how we start our agent - with this on, we can addd out key
+
+$ ssh-add
+- we dont need to specify which key, bcs we have only 1
+
+to make our entries more easier we can create a config file
+
+$ vim .ssh/config
+
+Host *
+	IdentityFile ~/.shh/id_rsa
+	ServerAliveInterval 300
+	ServerAliveCountMax 2
+Host remote
+	Hostname 192.168.0.243
+	User tux
+
+----------------------
+dont forget to change this into chmod 600
+otherwise it wont work
+
+
+----------------------
+
+disable ssh passwdord authentication
+
+$ sudo ssh -T | grep passwordauthentication
+$ sudo vim /etc/ssh/sshd_config
+PasswordAuthentication no
+
+/Password - to search in vim
+
+ssh-agent - to chache our passphrase
+ssh-add - to add any private key, that we want to cache
+to our agent
+
+
+-----------------------
+
+	POSIX ACLs
+
+establishing support for acl:
+	$ sudo yum list acl
+	$ grep -i acl /boot/config-$(uname -r)
+read our kernel release
+	$ rpm -qf $(whjich getfacl)
+to read our acl
+	$ sudo tune2fs -l /dev/sda2 | grep -a acl
+
+$ df -hT /
+-looking at our fs -T (for type?)
+we see her that / hs a file type: xfs
+xfs - supports acl
+but the kernel aslo needs to support acl
+$ grep -i acl /boot/config-$(uname -r)
+here we can see that xfs posix - yes
+which means it the kernel release does support acl
+
+even with that support we still neeed to make sure we have
+underlying packages isnstalled:
+	$ sudo yum list acl
+
+we can double check this with:
+	$ rpm -qf /usr/bin/getfacl
+
+$lsblk - shows fs
+
+===============================
+	PERMS
+
+$ sudo setfacl -m d:u:apache:r,d:o:- /var/www/html
+d: is default apache is user - added r
+others default perms are "-" so no perms
+
+$ sudo dnf dnf install httpd
+$ ls -ld /var/www/html/
+
+$ getent passwd mrkva
+$ getent group mrkva
+
+$ touch /var/www/html/file1
+$ ls -l /var/www/html/file1
+bad perms
+
+$ setfacl -m d:u:apache:r,d:o:- /var/www/html
+-this only apply to NEW files, not old pnes
+
+now on ls -l
+we can see + - it means that there are more perms
+than we can deduct from rwx
+
+$ getfacl /var/www/html
+$ curl localhost
+
+-----------------------
+
+$ mkdir -m 700 /tvojdir
+$ setfacl -m u:mrkva:rwx /tvojdir
+-if we want that mrkva will maintain the rights
+for all new files then we make it into defau;t
+(the same as above, just add d before u:mrkva:)
+
+$ getfacl /dir1
+$ getfacl -d /dir1
+-we see the default values
+
+can also be u:kiwi:r-x
+
+REMOVING setfacl
+$ setfacl -x u:kiwi /dir1
+$setfacle -m g:wheel:r-x /dir1
+
+BACKUP
+
+$ sudo getfacl /dir1 > /tmp/acl.txt
+$ sudo setfacl -b /dir1
+-removes the complete acl
+
+RESTORE
+$ sudo setfacl --restore=/tmp/acl.txt
+
+DEFAULT PERMS =//= DIRECTORY PERMS
+
+---------------------------------
+
+	SELinux
+3 modes:
+enforcing, permissive, disabled
+
+to see in what mode we are in:
+	$ getenforce
+
+$ sestatus
+- to see more info
+but i have disabled so i see nothing
+
+$ mount | grep selinux
+$ cat /etc/selinux/config
+-shows us the type of our selinux
+(if it is targeted, min. or mls (multi-lvl security))
+
+-targeted used the most
+
+$ setenforce
+-with this we can change it into enforcing or permissive
+-if we want to disable it, then we need to 
+write it into a config file and reboot it
+
+$ sudo setenforce permissive
+$ sudo setenforce enforcing
+
+to change into disabled:
+$ vim /etc/selinux/config
+herre change it into disabled
+then reboot the maschine
+
+$ sudo setenforce 1
+-1 = enforcing
+0 = permissive
+
+------------------------
+
+instal packages:
+
+seboolean:
+$ getsebool -a
+$ semanage boolean --list
+
+$ setsebool secure_mode_policyload on (-P)
+-P -is optional = perists the change
+WARNING: once we use -P we can NOT change it back
+
+
+---------------
+
+$ semanage boolean --list
+-it shows you an error if you run it as user
+so you can:
+$ sudo !!
+this will execute the last command
+
+$ sudo semanage boolean --list | grep secure_mode
+-we focus on secure_mode_policyhead
+
+$ sudo setsebool secure_mode_policyload on
+-look, there is no -P, so we didnt make it permanent
+-it is on runtime config
+
+$ sudo setenforce 0
+-it refused - why?
+we do not fulfill the criteria
+(we changed policyhead to on)
+
+---------------
+
+selinux=0 
+-WRONG way to disable selinux lol
+
+enforcing=0
+-we are on permissive mode
+good if we have authentication problems
+
+autorelabel=1
+all files get assigned selinux labels that they
+should have
+-good to solve selinux boot and authentication issues
+
+--------------------
+
+
+
+
+
+
+==============================
+
+	MANAGING USERS
+
+==============================
+
+$ cat /etc/passwd
+$ grep kiwi /etc/passwd
+$ getent passwd kiwi
+-getent can get info either from passwd or
+from backup, ActiveDirectory, LDAP etc.
+getent = get entire
+
+$ man 5 passwd
+-will list sections of manual entry ??
+
+
+Printing Selected info
+$ cut -f1,3 -d: /etc/passwd | grep kiwi
+$ awk -F: '/kiwi/{ print $1 " " $3 }' /etc/passwd
+
+$ less /etc/nsswitch.conf
+-controls which database to look in
+= name service switch file
+
+$ getent passwd
+-shows all users, even those who are connected
+through OpenLDAP or ActiveDirectory
+
+$ getent passwd kiwi | cut -f1,3 -d:
+$ awk -F: '/kiwi/{ print $1 ":" $3 }' /etc/passwd
+
+$ sudo -i
+-for interactive shell (?)
+
+
+
+
+
+
+
+
+
+
