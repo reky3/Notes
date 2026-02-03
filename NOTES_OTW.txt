@@ -1,0 +1,118 @@
+
+      ,----..            ,----,          .---.
+     /   /   \         ,/   .`|         /. ./|
+    /   .     :      ,`   .'  :     .--'.  ' ;
+   .   /   ;.  \   ;    ;     /    /__./ \ : |
+  .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
+  ;   |  ; \ ; | |    :     | /___/ \ |    ' '
+  |   :  | ; | ' ;    |.';  ; ;   \  \;      :
+  .   |  ' ' ' : `----'  |  |  \   ;  `      |
+  '   ;  \; /  |     '   :  ;   .   \    .\  ;
+   \   \  ',  /      |   |  '    \   \   ' \ |
+    ;   :    /       '   :  |     :   '  |--"
+     \   \ .'        ;   |.'       \   \ ;
+  www. `---` ver     '---' he       '---" ire.org
+
+=============================================================================
+||	BANDIT
+=============================================================================
+
+cat >> file
+you write here
+exit with Ctrl+C
+
+	BANDIT 01
+if a filename is -
+you cannot use cat bcs it confuses - with something else
+if you want to see the file:
+1) use absolute path ( or cat ./- )
+2) cat < -
+
+	BANDIT 02
+if a filename is called --spaces in this filename--
+cat with ' and " didnt work and neither \ and tab
+instead use:
+cat -- "--spaces in this filename--"
+bcs before cat "--spaces in this filename"
+above cat interpretes --spaces as parameter
+(even tho there are ")
+so in order that cat qouldnt confuse it use:
+-- before it so cat now that what follows it is
+actually a name and not a parameter
+
+	BANDIT 03
+to clean terminal we can also use reset
+
+	BANDIT 04
+how to find out what kind f file it is- if it is humanly readable
+do: file ./-file*
+and like that you see if file is ascii or data
+
+	BANDIT 05
+here the file had to be humanly readable, not executable and of size 1033b
+i used:
+ls -lh ./maybeher*/* ./maybeher*/.*
+-> with this i could see thich files were executable and which not
+file ./maybehere*/* ./maybehere*/.*
+-> that way i find it if a file contains ascii or data or other type
+-> with this i can also see hidden files
+find ./maybehere*/ -type f -size 1033c
+-> this command gave me only one file which was also the correct one
+
+	BANDIT 06
+file can be anywhere in the server
+owned by bandit7 and group bandit6 size 33c
+find / -user bandit7 -group bandit6 -size 33c
+
+	BANDIT 08
+paswd is uniq - only once in file
+sort data.txt | uniq -u
+
+the reason why uniq -u data.txt doesnt work is bcs uniq only
+removes adjacent duplicates - so first we gotta make them adjacent
+with sort
+in short uniq -u should be used together with sort
+
+	BANDIT 09
+to search for a string in a binary data file:
+strings data.txt
+
+	BANDIT 10
+if a file is in base64 then we can decrypt it
+base64 -d data.txt
+
+	BANDIT 11
+file is encrypted with ROT13 - we use tr to decrypt:
+tr "a-zA-Z" "N-ZA-Mn-za-m" < data.txt
+
+	BANDIT 12
+we got a hexdump - to reverse it we used xxd -r filename
+then with command file we checked the file type
+$ file data.txt
+here it wrote if it is compressed gzip, bzip or tar file
+even tho i tried to bunzip, gunzip and tar-x nothing worked
+apparently it was important what kind of koncovku maju
+so if it showed it was a gzip file - i had to rename the file into
+data -> data.gz 
+and the same fro bzip2 -> data.bz and tar -> data.tar
+only when i had the endings i could decompress and unarchive the file
+
+|| new what i learned:
+from hexdump we can see the magic bytes which determine the file type
+
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+ 
+	BANDIT 13
+lmao i died here
+i just had to go to bandit13 and see where the private ssh key is located
+once i new, i logged out, anda stayed in my own mashine and put this cmd:
+scp -P 2220 bandit13@bandit.lab.overthewire.org:/home/bandit13/sshkey.private .
+
+then it asked me pswd for bandit13, and it usccessf downloaded the file
+now just gotta change private key perms
+for the key the work it HAS to have 600 perms, if not, change into that
+then:
+ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+and done!
+
+
