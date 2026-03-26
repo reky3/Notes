@@ -1,0 +1,288 @@
+w15 zrp
+
+co je to product
+nieco co firma vyrobi, urcene pre konzumacia zakaznikov
+
+hlavna charakteristika product 
+je to hmotne
+hodnota-za aku cenu kupujeme produkt
+
+zakl. characterisitka
+-hodnota, kvalita, cenova dostupnost, dizajn a funkcnost
+
+ach chceme cenovu dostupnost tak musime ubrat na kvalite,
+ak chcem vysoku kvalitu tak musime ubrat na cenovej dostupnosti
+
+o kvalite je to , ze vieme ze vydrzi
+
+treba davit pozor na cenovu pozornost, aby ten zakaznok
+vobec Vedel kupit
+
+jeho hodnota - ze ci nahodou konkurencia nieje lepsia
+
+
+cenova dostupnost moze byt urcena nie len od kvality
+ale aj od znacky
+cim je znacka prestiznejsia
+tym viac si mozu dovolit zdrahsit ich produkt
+
+
+produktovy cyklus:
+vyvoj produktu R&D" pociatocna faza, kde je
+product vyvijany a testovany
+uvedenie na trh: ak produkt je hotovy: marketing, slova, debugging
+chceme ist do podvedomia ludi
+rast - product pojde do povedomia spolocnosti, zrazu je viac
+ludi kt. ten vas product chcu
+zrelost - predaje sa stabilizuju, ten graf ide 
+k tej rovinke
+pokles - prichadza konkurencia, a cely cylkus
+moze zacat este raz
+-moze byt aj z toho ze ta firma uz ostarela a trh chce
+uz nieco nove. alebo ten trh je uz nasyteny tym produktom
+
+
+
+sluzba
+-v podnikateldksom svete hra klucovu ulohu - lebo vela veci
+sa pretranformovalo na sluzbu
+-je to opak produktu, neda sa ju chytit ani pozriet - ale
+mozme hned pri Kupe skonzumovat
+
+
+sluzba: doktro, kadernik, mechanic, poradenstvo
+
+takze su to veci kt. mozme kupit ale v zivote sa ich
+nedodktneme
+
+
+sluzby su urcene pre jednotlivcov - a ak kupime pre druhu
+osobu, tak velakrat moze ich pouzit len 1 clovek (toto patri
+k osobnym sluzbam)
+
+ososbne sluzby: zdravotna starost., vzdelavanie, rozne druhy
+ako kadernictvo, masaze
+
+zabavne sluzby: cestovne kancelarie, kynetografia??
+nieje ot kino?
+
+sluzby pre podniky
+-tu nadviazujeme s outsourcing
+ako SBS - my neberieme ich product ale ich sluzbu: ochrana
+alebo financne kancelarie
+
+dual vyuziva marketing od Lemuru
+
+logistika a distribucie - to je vacsinou donaska, Wolt etc.
+
+velkoobchodne a distribucne sluzby 
+-body co sme mali pred chvilkou boli prevazne o tom ze to bolo pre jednotlivca alebo pre male podniky,
+male skupiny ludi
+
+napr. firma vyraba coca cola, a tie drinky treba niejak
+roznasat po obchodoch
+coca cola nic nevlastni len tu recepturu, ostatne veci
+si outsourcuju - naprikald: vyrabanie toho drinku,
+vyplnanie do flias etc.
+
+ale toto je pre velku skupinu ludi
+
+ako nakup licencii do PC, nakup toalet do firmy etc.
+
+lol, ked bol covid, firma mala contract s toaletakmi
+zmluvu sa nedalo prerusit
+ale kedze covid prisiel tak ludia neboli vo firme
+firma sa zaplnila toaletakmi lol
+
+
+kvalita sluzby
+toto nas najviac zaujima
+
+rychlost a efektivita - rychlost nas zaujima
+ale rychlost nieje vsetko - napriklad ak pride kurier
+v rekordnom case ale nase jedlo vyzera akoby bolo hodene do mixeru
+
+profesionalnost personal: aby boli vyskoleny, aby
+komunikovali so zakaznikmi - aby boli slusny
+chceme aby dostupnost bolo idealna - ako casto mame
+k tej sluzbe pristup
+a spolahlivost - ak si tu sluzbu zoberieme tak bude bezprobelmova
+alebo bude menej probelmov akoby sme ocakavali.
+chceme dostat relevantne info
+zakaznicka podpora - napr. alza - ak potrebujeme zmenit adresu
+lebo je to lacnejsie - tak ta zak. podpora nam pomoze, a neodbije
+nas niejakymy frazamai
+
+
+vyzvy:
+-nezmeratelnost kvality
+nikdy to nieje presne
+to ci je sluzba pre nas kvalitna - ma to velmi vela 
+faktorov na to aby sme to vedeli ovplyvnit
+napr. ci ta osoba sa dobre vyspala
+
+vysledky z prieskumu nikdy niesu 100% relevantne
+lebo ludia idu k veci s emociami, nevedia sa odosobnit
+
+napr. sunka v kauflande
+ludia povedia ze chcu sunku, a predavac ma uhadnut kt.
+sunku ten zakaznik chce
+
+-zavislost personal
+kvalita je zavisla na zamestnancov
+ocakavame ze budu vycviceny, ze budu vediet odpovedat na nase
+dotazy, aby vedelli v sebe udrzat svoje personalne problemi
+napr. v call centrum: musi davit aj pozor v akom mentalnom
+/psychickom stave su ti klienti (emocionalny alebo nasraty lol)
+
+-technologicke vyzvy
+technologie musime mat stale pripravene, potrebujeme aby
+tie technologie stale fungovali
+napr. roznos jedla - spolahujeme sa ze si na appke rozklikame
+co chceme a aby sme videli na nasej mapke kuriera - ale ta appka
+nam moze sekat, tomu kurierovi moze gps sekat, etc.
+
+ak chceme poskytovat sluzbu je velmi dolezite ako splnime tieto
+3 body - ludia su velmi kriticky, ak nesplnime jedno z toho
+tak vysledok moze byt velmi fatalny
+
+
+
+IKT sluzby
+-riesi veci ohladom informatiky
+cybersecurity, uchovavanie dat, ochranu dat
+pred ostantym, etc.
+
+
+niejaka IT podpora - napr. instalacia windoesu - ocakavame
+niejaky manual na webe alebo niejaku pomoc na hotlinke
+
+zabezpecenie, ochrana udajov:Telekom riesi aj cybersecurity: ich
+zakaznikmi je aj Volskwagen group - ochrana dat etc.
+alebo ochrana nasich account, cloud etc.
+spravy su zasifrovane pri posielani
+
+
+riesenia pre komunikaciu
+-videokonferencie, Webex, email, facebook
+takze hocico s cim vieme komunikovat, aj nakonci
+druheho sveta - ci uz cez kable alebo cez vzdych (ked
+telefonujeme)
+
+neustala inovacia
+napr. ai
+aby sme sa vedeli udrzatt na trhu
+lebo pri ikt sluzbach , staci ak nieco omeskame
+tak sa nam moze zrutit, technicka podpora, ochrana dat
+a tak aj stratime zakaznikov lebo oni budu chciet
+nieco novsie a krajsie
+
+
+
+
+ikt sluzby - musime brat do uvahy - ze toto rychlo rastie
+mozno zistime ze to nevieme a sa musime ucit znova
+
+
+tieto ikt sluzby klasifikujeme do viacerych kategorii - najviac
+su preferovane cloudove sluzby
+
+dnes sa pouzivaju virtualne pc a server
+existuju spolocnosti kt. nam budu ponukat cloudove riesenia
+aby sme ich my nemuseli riesit (t.j. outsourcing)
+
+to budeme brat v 3. rocniku
+
+cloudove sluzby
+iaas, paas, saas
+-toto bude aj na zaverecnych skuskach
+
+paas - riesi skor to ako vieme tie aplikacie vyvijat
+a ak ih budeme mat hotove tak aby sme ich vedeli nasadit tak
+aby ostatny by so to bud mohli stiahnut alebo niejako pouzivat
+
+saas - google document, Microsoft, etc.
+
+
+
+sprava sieti a jej infrastruktury
+zabezpecenie tej siete, ako sa ta siet ma spravat
+sprava serverov
+aby to nebolo tak lahko hacknutelne
+infrastruktura s a riesi , ako ta siet ma vyzerat
+ako ma byt pripojena etc.
+
+aj na cloudovch vieme vytvarat virtualne server - a tie 
+vieme prepajat s virtualnymy switchami a routrami - to sa
+robi pre vacsiu bezpecnost
+
+
+
+vyvoja softveru na mieriu
+-najskodlivejsia ikt sluzba
+-lebu tu asi nikde nevyhovies nikomu
+stale sa najde co sa mu nieco nepaci
+ale je najzarobkovejsia
+
+webovy vyvoj
+vyvoj mobilnych/pc aplikacii
+-ak mame vytah to tiez patri k ikt sluzieb
+
+
+
+bezpecnostne sluzby
+kyberneticka bezpecnost - bezpecnostne audity
+do akej miery je tento system pre nas bezpecny
+PSA - je to document co nam znici zivot lol
+je to document v kt. treba vyplnit vela veci ohladom
+bezpecnosti a to nie len ohladom zakaznikovi ale aj ku nam
+sofrovanie a ochrana dat
+bezpecnostne audity
+
+
+technicka podpora a it poradenstvo
+-to su tie helpdesky-kde im zavolate a dufate
+ze vam aj realne pomozu
+-tu ide prevazne o ten zakaznicky services
+IT poradenstvo - kt. nam vysvetlia ako natahat kable(?)
+
+
+datove sluzby a analyzy
+-databazove zalezitosti a podobne
+
+efektivita
+-tie sluzby nemusime robit sami - vieme automatizovaat vela
+procesov - teda za nas by mohol niejake veci spravit
+softver alebo sada softverov
+flexibilita - skrze cloudovych sluzieb vieme sa koncentrovat
+nasho aktualneho projektu
+je lahsie mat virtualne Linux ako mat fyzicky Linux kde
+by sme museli vymazat cely windows
+
+inovacie
+-vieme sa dat do popredia s Nasimi ikt sluzbami
+lebo velakrat sa museli riesit manualnym posobom
+
+mame kopu dat kt. treba rozanalyzovat a zistit niejake veci
+napr. online dotazniky - to je tiez brane ako sluzba
+
+
+
+
+vyzvy ikt sluzieb
+
+bezpecnost
+-kedze casto pouzivame iT sluzby tak davame vela dat/info
+do internetu - tak potrebujeme a je nutne riesit tuu 
+bezpecnost
+-toto bude zaujimat zakaznika najviac
+
+zlozitost a naklady - lebo potrebujeme vela ludi kt. sa budu
+v tych ikt sluzieb rozumiet - mozno najlepsi v ich field
+a budu vediet s tym pracovat
+ale bude to financne narocne
+
+rychly a technologicky pokrok
+gpt bolo 4 a uz je gpt 0.1
+neustale vyvujajuce sa technologie
+jedna z najvacsich vyziev je ze zakaznik si rad vymysla

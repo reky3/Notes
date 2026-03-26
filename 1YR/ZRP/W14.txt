@@ -1,0 +1,201 @@
+w14
+
+globalizacia a outsourcing
+
+
+neskor zistime ze mozno na swot analysu vahu velmi nevyuzijeme
+ale su prakticke a viac prehlianejsie
+je to vsetko zo zilinskej university
+-tym to mame aj viac presnejsie
+
+
+globalisacia  oiutsourcing
+je to primary business ciel nasej spolocnosti
+
+co ta globalizacia moze byt a co prinasa?
+ byt na trhy, prinasa zisk, pracovnu silu a reputaciu
+
+sme vo ovela vacsiom trhu, mame vacsi technicky pokrok
+
+aj kulturne - lebo mi sme santa clausa nepoznali 
+dokial neprisla  coca cola - my sme mali len mikulasa
+
+investicne a obchodne
+
+
+glob. ma aj vplyvy
+-zvysenie medzinar. spoluprace a kulturnej vymeny
+-lepsi pristup k technologiam
+-rychlejsie prenos infor.
+vzdelavanie a vymena studentov
+-globalny obchod a rozsirenie trhov
+
+otvaraju sa nam aj nove kontakty,
+mozme nadvazovat spoluprace  aj s inymy znackami
+
+ked sme otvoreny ku global. tak nam prichadzaju
+aj viac informacii
+
+
+ked si vsimneme ako znacky marketinguju
+cola nam nepredava drink ale stastie a dobru chvilku
+
+apple nepredava zariadenia ale niejaku spol. uroven
+
+
+vyzvy global. su aj:
+-zvysovanie nerovnosti medzi krajinami
+(napr. keby sme spolupracovali s afrikou - v porovnani my
+by sme boli silnejsi na technickej stranke)
+nasou ulohou je vyrvnat nerovnosti vo vedomostiach atd.
+-dalsi rozdiel je: plat - nemec urobi o polovicu menej
+ale plat ma 3krat viac
+
+-environmentalne vyzvy - napr.pri autach, niekto to musi
+priniest
+h&m - prinsa enviro zataz
+
+-vplyv na miestnu ekonomiku - toto moze byt pozitivne - lebo
+ak sa dari, zamstnanost sa zvysy, ludia ziskaju vacsie platy
+artd
+
+-zavislost na globalnych dodavatelskych retazcoch
+
+-napr. cipova kriza z roku 2020
+
+-etnicke a narodne konflikty
+cast tej krajiny sa radikalizuje - ze to ohrozuje zaujmy
+ich krajiny
+
+-komodifikacia kultury
+
+
+napr. ak cina sa rozhodne ze prestane so zapadom, tak apple
+padne - lebo vacsina zariadeni je prave vyrobene z ciny
+
+
+outsourcing
+
+to znamena ze cast nasej prace nechame robit niekym inym
+
+napr. mame restiku- mame obrusy kt. musime pravidelne
+cistit - najdeme si pracovnu, kt. sa o to postara
+-tot vyjde nam lacnejsie lebo sa nemusime starat a platit
+za pracku, pracie prostreidky, voda, zamestnanca kt to by musel spravit,,,
+
+telekom outsourcuje aj budovy
+tecko nevlastni budovi ale ich prenajima
+preto sa nemusi starat o budovy, ak sa nieco pokazi,
+vytopi tak tecko sa s tym nestara ale spravca budovy
+
+outsourcujeme take veci o ktorych sa nestarame
+napriklad upratovanie budovy atd.
+
+
+pri outsourcovani aj setrime si cas
+napr. ak odide nam umyvacka, tak by sme museli
+hladat novu, ale my si najdeme inu firmu kt. budeme
+outsourcovat, tak ak im odide umyvacka tak oni musia
+hladat a riesit dalsiu umyvacku
+a my to neriesime - usetrili sme cas
+
+
+outsourcovanie softverov, webovych stranok,,,
+
+
+typy outsourcingu
+
+-offshore outsourcing
+--presun cinnosti do vzdialenych krajin
+--prikl. IT firmy zo slovenska outsourcuju vyvoj softveru
+do indie
+--my IT telekom Slovakia sme na slovensku ale firma je nemecka
+
+-nearshore outsourcing
+--externe firmy su v blizkych krajinach, zvycajne v rovnakom casovom pasme
+--prikl. rakuske spolocnostu outsourcuju uctovnictvo na slovensko
+
+-onshore outsourcing
+--externa spolocnost posobi v tej istej krajine
+--prikl. slovenska firma zadava upratovanie miestnym spolocnostam
+
+
+-business process outsourcing - BPO
+--outsourcujeme celu cast jednej firmy
+--outsourcing celych obchodnych procesov, napr.
+zakaznickeho servisu, HR, alebo uctovnictva
+
+-knowledge process outsourcing KPO
+--napr. chceme vediet ci nasmu produktu to ide - tak
+outsourcujeme jednu firmu kt. by spravila vyskum
+
+--ide o outsourcing znalostnych a analaytickych cinnosti
+ako je vyskum trhu alebo financy
+
+
+vyhody
+
+-ekonomicke vyhody
+--nizsie naklady
+
+-rychlejsi pristup k zdrojom
+--externe firmy uz maju infrastrukturu, vybavenie a odbornikov, co setri cas
+
+-inovacie
+--exter. firmy mozu priniest nove pohlady a technologie
+
+-znizenie rizik
+--riziko prevadzkovych problemov sa prenasa na externeho
+poskytovatela
+
+cloud - serverovna - ak vyhori
+
+
+
+nevyhody
+
+-strata kontroly
+--manazment nema priamy dosah na proscesy vykonavane externe
+
+-zavislost na externych dodavateloch
+--ak dodavatel zlyha, firma moze mat vazne problem
+
+-bezpecnostne rizika
+--outsourcing citlivych udajov, ako je zakaznicka databaza
+moze viest k unikom udajom
+
+-socialne a politicke dopady
+--outsourcing moze viest k strate pracovnych miest
+
+-komunikacia a kulturne rozdiely
+
+
+buducnost outsourcingu
+
+-automatizacia
+--robotizacia a umela inteligencia
+--prikl.: chatboti mozu nahradit call centra
+
+-udrzatelnsost
+--firmy sa viac zameriavaju na eticke aspekty outsourcingu, vratane pracovnych
+podmienok  ekologivkych dopadov
+vieme riesit spolocne tieto temy
+
+-digitalizacia a vzdialena praca
+--pandemia a covid ukazala, ze mnoho cinnostu je mozne
+outsourcovat vzdialene
+--pocaas covidu aj vzrastla produktiivita
+
+
+DT IT v outsourcingu
+-sprava it infrastruktury 
+-zalezitost softverouv
+vyvoj softver a aplikacii
+-to riesi nasa slovenska pobocka
+
+podporea koncovych pouzivatelov - end-user services
+
+BPO - napr. tie ekonomicke veci
+ak outsourcujeme nie konkretny product ale service
+
+bezpecnostne sluzby
