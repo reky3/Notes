@@ -1,0 +1,161 @@
+s2w9 zrp risky a manazovanie projektu
+
+wbs - work breakdown structure
+oni zoberu niejaky project a snazia sa 
+rozdelit na mensie celky, na mensie zvladnutelne casti
+
+stara prezentacia je risk a struktura projektu
+
+
+su aj pozitivne rizika
+napr. konkurencia nam vytvara tlak a vdaka tomu
+my sa stale snazime vyvijat a zlepsovat
+
+strategicke rizika
+ked konkurencia pride na trh
+napr. starame sa o serverovnu a konkurencia ma vacsiu serverovnu
+a vtedy mame velke existencne riziko
+lebo vtedy klienti si mozu vybrat tych konkurentov
+
+legislativne poziadavky
+napr. nieco vyvijame a pocas toho politici dali 
+niejake naradenie co vlastne zastavi nas project
+teraz to sa stalo s ai - eu dalo velke restrikcie
+tak v eu mozu predat len zariadenia kt. neobsahuju ai
+ale oni vytvorili tie zariadenie len kvoli ai - museli
+zrusit produkciu
+
+
+zmena cielu projektu
+to ked pridu kravataci a povedia ze chcu ten project trochu zmenit
+napr. zrazu chcu tam dat ai, a pomali sa ten project meni na nieco ine
+
+ako sa daju take rizika eliminovat ale pripravit sa na ne?
+
+napr. zmena podnikatelskeho prostredia- ako by sme zareagovali
+na tu konkurenciu? - sledujeme trh, posleme spionov lol
+sledujeme konkurenciu, co maju nove, ako sa vyjadruju
+
+to iste plati aj pre legislativnych poziadavkach
+
+zmena cene projektu - to je o komunikaccii
+(s kravatakmi asi)
+
+
+financne rizika
+-ekonomika
+
+tam mozu byt 2 faktori kt. nas ovplivnia: my sami alebo zvonka
+bud sme si zle naplanovali financie - zistime ze nemame dost
+na jeden projekt
+
+podcenovanie projektu= dame maly budget
+nastane problem
+
+nedostatok finnancii
+
+kurzove krivky - zmena kurzu - ako dolar na euro etc.
+
+ako sa vyhnut? 
+skus najst lacnejsie alternativi
+mozme si urobit na zaciatok finance. rezervu
+a cely cas dufame ze ta zaloha sa vobec nevyuzije
+
+technicke rizika
+napr. avatar film - ten modry
+grafika, render - wau
+reziser chcel pracovat na avatar2 este v ten rok
+od vzniku avatar1
+ale Technik k nemu prisiel a mu povedal ze na to
+techniku nema - nevedia renderovat realisticky vodu
+(teda v tej dobe to bolo nerealisticke)
+
+nerealisticke poziadavky
+to vlastne podobne ako bod vyssie
+
+napr. na SK by bol 1 centralizovany server
+kde by bola MMO hra, a pripojil by sa nato cely svet
+-nerealisticke
+to by kazdy mal nervy, leteli by pingy etc.
+
+preto treba davat pozor ake technologie tam dame
+lebo neexistuje clovek kt. 1hod. po
+virtualnej realite nieje zle
+
+ako to obideme? opravime ciele
+ako zistime ze tie ciele treba upravit
+
+akoby sme zistili ze toto riziko je nerealisticke
+
+-by sme sa sami spytali aky je max. output tych nasich
+technologii
+
+alebo by sme odsunuli ten project dovtedy kym ta technika
+sa nevyvinie natolko ze ten project uz bude
+uskutocnitelny
+
+operacne rizika
+to ze sme project tak naplanovali nezname ze budeme
+aj tak fungovat cely cas
+
+napr. sme naplanovali na 15 ludi ale 5 odidu
+tak mame malo ludi a vyroba sa spomali
+
+napr. problem moze byt aj v postupe procesu
+napr. robime topanky - a kym tie topanky prejdu na procesnu halu
+tak je to pomale a tym stracame cas
+
+tie dve body poukazuju na nedostatocne planovanie
+
+ak sa to stane moze sa stat ze
+dev je spraveny, cyber je spraveny ale serverovna este stale
+nestoji
+a zrazu 80 ludi nema co robit
+
+ako sa to da ovplyvnit?
+-chybu urobi ludsky factor
+preddideme to tak ze budeme to planovat den-noc den-noc
+a zohladnime sa co na najviac faktorov
+
+sme v novej firme a akym sposobom
+najdeme tie rizika?
+-pozerame na firmy (kt. robia/robili to iste co i my)
+a pozerame ake chyby spravili a ako to vyriesili
+
+steve jobs etc. - ich uspech je casto aj na ich stasti
+mame pozerat aj na ludi kt. chceli napodonit ich uspech
+musime si pozriet preco spadli na zem, a nespravit tie iste
+chyby ako oni
+-takze nemame pozerat len na seba
+a vela sa toho docitame na internete o spolocnostiach
+kt. pohoreli
+napr. indie game studia - ich je mnoho
+
+
+
+pravne a regulacne rizika
+project musi mat toto a toto, nemoze brat take info od pouzivatelov,
+alebo aby sa nedostali 3-strany
+ak nedodrzime moze byt sakra velka pokuta - v milionoch
+alebo az v miliardach
+
+alebo problem s autorskymi pravami
+napr. jedna socharka chcela predate sosku dobbyho
+chcela ho  predat ale dostala spravu od WB ze nienie
+
+alebo shrek
+chce pouzit vela postaviciek kt. uz dlho existovali
+v Disney - tak hladali pravne ako to obist a zistili ze
+Disney nato nema prava. 
+
+alebo ak stahujeme obrazok - a tam pise ze ten obraz
+sa nema pouzit v reklamach
+ak to predsa pouzijeme - bereme riziko na seba
+
+treba pozerat kto ma licencie, kto ma autorske prava na to
+kto ma splnomocnenie etc.
+
+
+----------------------------------------------
+ticket change management 
+

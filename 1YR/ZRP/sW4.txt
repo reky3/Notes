@@ -1,0 +1,184 @@
+ZRP S2W4
+
+zaklady projektovej dokumentacie
+
+musi zachytavat ake su nase ciele
+aky je rozsah
+aky je plan projektu
+aka sme spolocnost, s.r.o
+ci uz mame kapital alebo si zoberieme pozicku
+rizika kt. by nas mohli postihnut pocas vyvoja
+naseho produktu/firmy
+
+boli aj dokumnetacie kt. mali aj 280 stran
+je to vsetko dopodrobna aby vsetci vedeli 
+o com ten porjekt je
+
+pozostava z viaceri wordou/casti
+ako je projektovy charter, gantov graf etc.
+
+vytvara sa aj dokumentacia meetingov
+pri meetingoch bol manager kt. robil poznamky
+co si vsimol (napr. na toto sa pytali
+toto sme chceli este robit, k tomu sa mame este vratit)
+je to dobre ak zakaznik furt vymysla
+
+neda sa zmena projektu len tak zmenit
+musime dat navrh na zmenu, potom je meeting
+a ked to prejde musime to dat do dokumentacie
+
+
+
+dolezitost dokumnetacia
+
+hlavna je jasna komunikacia
+
+my si mozme mysliet o nieco ine
+preto je lepsie mat dokumentaciu, taze pocas komunikacie
+ste stale hovorili a mysleli o tom istom
+
+efektivne planovanie
+-zaroven obsahuje ciastkove ciele
+pocas planovania mozeme vyuzit dokumentaciu v zmysle ze
+zoberieme ciastkove ciele a zapiseme ho do gantoveho grafu
+
+
+gantovy graf je dobry
+od teraz do teraz sa robi toto a toto
+je to dobre na planovanie financnyh zdrojov
+lebo investor zriedka vam da/otvori vsetky financie pre vas
+da vam iba po castiach a po prejdeni milnikov
+-milestones
+
+tak sto mozeme vidiet ci sa nachadzame v casovom sklze alebo
+ci sme velmi dopredu
+
+casto sa stava ze ludia sa zhodnu na jeden project
+ale na koniec projektu to skonci ako nieco uplne ine
+
+tak isto moze aj project stroskotat
+kedze nebulo dokumentacia
+kazdy robil inu hru
+
+je dolezite si to aspon niekde zapisat
+a ak ma nieco nove napadne tak je dobre si to znova precitat
+a porozmyslat ci sa tam da dat a ci sa tam hodi
+
+
+transparentnost a zodpovednost
+ked nam dava investor peniaze - musime byt zodpovedny
+
+do dokumentacie sa dava nase meno, pomlcka a co je to document
+teda to znamena ze ak zlyha tato cast projeku tak to
+padne na nasu hlavu
+
+dokumentacia 
+-nieje to len 1 subor kde je vsetko
+
+typy projektovej dokumentacie
+project charter
+-ma formalnu stranku
+ak ho podpisu vsetky zainteresovane strany, tak project sa zacina
+musime dat parameter - co ak ako
+
+
+projektovy plan
+-harmonogram - kolko ludi tam treba, kolko casu nam to zabere
+ake su rizika
+naprogramujeme toto a toto a ked nam to nepojde? lebo cisco
+nieco zmeni a nam to nepojde lebo sme nekompatibilny
+-viac itil zalezitost, je viac technicky
+musim co najlepsie ropzracovat
+je tam aj ze co budeme pouzivat, ake budu problemy pri
+danych technologii
+vela informacii o aplikacii alebo o projekte samotnom
+napr. technologia je java language
+ale tretia strana nechce spolupracovat ze pouzivame java
+tak to je naznak ze sme neporozmyslali poriadne
+o nasom projekte
+lebo v charte je uz podpisoane a tym padom
+nam stakeholder vypadol
+
+
+napr. firma robila aplikacie na technologiu co vymrela
+firma skrachovala
+
+ganttov diagram
+-akym sposobom sa bude na praci robit v ramci casu
+spravime si casovu os
+napr. od feb. do marca budeme robit na architecture
+od marca do juna budeme robit na uzivatelskom rozhrani etc
+
+
+reporty a zapisy
+-najviac sa meni tota cast
+
+zmenove ziadosti - to je druh dokumentacie
+-svojim sposobom riadi cely tym, ale riadi to (tuto doku)
+len 1 clovek
+lebo mozu prist nove napady
+alebo ina technologia (lebo sa vsetko vyvija)
+hlavne ak je to dlhy project, vtedy sa vsekto meni
+ak v niejakej casti projektu musi byt zmenena
+toto ostava do dalsieho meetingu kde sa bude
+diskutovat ze do akej mieri vieme tieto zmeny realizovat
+
+prebera sa, je mozny napad, nie je? a nakoniec je
+ci ideme do toho
+otazka je ci nam ta zmena zlepsi project alebo predrahsi project
+malo co nam zmena skratsi cas
+
+ak je dobra architektura - tak menej musime 
+programovat a viac klikat
+takze celkom prakticke
+
+technicka dokumentacia
+tu sa hovori - s akymy tech. budeme pracovat
+kde budeme posielat veci, na akych tech. budeme pracovat
+a tieto tech. zalezitosti mozeme obmienat
+lebo moze prist nova ITC sluzba kt. nam pomoze s projektom
+realisticky odovodnit preco budeme pouzivat prave tieto
+technologie
+preco js ako moze pouzit angular
+stale musi odovodnit preco prave ta techologia
+
+----koniec dokumentov----
+
+projektovy charter
+officialne spusta project
+stanovuje ciele projektu, rozsah
+
+tento charter sa robi najdlhsie a je najkomplikovanejsie ho
+vytvorit
+
+lebo tu mame 10 ludi a dohodnite sa
+-kazdy sa hada, kazdy chce svoje
+ked su klienti netechnicky, tak je to velky zaber
+
+treba tento document aj stale kontrolovat
+-ci sme nahodou neodbocili od nasho povodneho ciela etc.
+
+komponenty project. chatra
+nazov a ucel projektu, pozadie a context
+(tu je problem, vznika vtedy a vtedy a chcem ho vyriesit tak a tak)
+ciele a prinosy
+rozsah projektu, identifikacia zainteresovanych stran
+-tu su zapisany vsetci nasi investor, stakejhoolderov etc
+
+z coho bude nas project financovany-z coho ziska zdroje
+rizika a obmedzenia - nasa swotka
+main milestones
+tu uz zavisi aky chceme byt detailny
+schvalene a podpisy
+-kto kazdy suhlasi s tymto
+
+
+
+
+
+wbsc - work breakdown structure
+=analyza
+take 1 big thing and disassemble into smaller things
+
+posledna cast dokumentacie sa meni najcastejsie
+a to je zapisovanie reportov

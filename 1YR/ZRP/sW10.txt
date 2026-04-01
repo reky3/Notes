@@ -1,0 +1,139 @@
+2.4. zrp SCRUM method
+
+
+waterfall method
+analyza>dizajn>implementacia>nasadenie>udrzba
+
+ak vsetko mame rozplanovane ideme na design
+robime koncepty atd
+
+nasadenie - dame ho do prevadzky a dame ho do realneho prostredia
+udrzba - to ze project je dokonceny neznamena ze je uplne dokonceny
+napr. stale ho musime kontrolovat ci funguje ci je up to date etc.
+
+ak by sme v udrzbe nasli chybu a chceme to zmenit
+tak musime ist uplne na zaciatok na analyze
+lebo ak sme nasli 1 chybu - mozno budu viac
+alebo ak spravime zmenu - tak to moze ovplyvnit ineho cloveka
+treba naplno vsetko naplanovat - aby sme co najviac minimalizovali tie zmeny
+
+
+-nemusi to byt v odvetvi IT
+
+to je ako ked stavame dom
+musi to byt presne ako podla blueprint, ak sa daco zmeni tak musime
+ist uplne od zaciatku pozriet do blueprint a znova spravit analyze
+
+pocas celeho vyvoja ideme podla planu
+
+vyhoda: jednoduchost
+nevyhoda: ziadna flexibilita
+
+
+Agilne metody
+su zamerane prevazne na flexibilitu a feedback
+ak robime project, rychlo sa da menit s agilnymi metodami - cez sprinty
+
+vacsina firmy pracuje na agilnych metodach
+
+pre agilitu je dolezita komunikacia - lebo ak nastane zmena, tak to
+musime dat vediet aj inym ludom
+
+ale tachsie sa urcuje kolko project bude stat
+lebo tie zmeny sa deju casto a moze to byt financne narocne
+
+agilitu najlepsie vysvetlime cez lodku
+
+1. z pristavu odide lod, je nalozena tovarom
+ak lod narazi na ladovec, tak sa potopi, aj s tovarom
+ale druhy pristav potrebuje Tovar - 2.strana ale musela dlho cakat
+nedostali ziadnu komunikaciu tak asi lod sa utopila
+stratili vela casu
+
+2. dalsia lod, ten isty naklad, natrafi na ten isty ladovec
+
+preto je neefektivne
+
+preto na agilite posielam viacero mensich lodi kt. su postupne released
+ak 1 narazi, tak uz aj druha vie a moze sa vyhnut
+plus k tomu je aj scrum metoda(asi vrtulnik)
+
+ak 1 lodka narazi - velmi az nevadi lebo nemalo toho tolko vela tovaru
+helicoptera to uvidi a da vediet inym lodkam aby sa ladovcu vyhli
+a tym usetria aj cas aj prostriedkami
+
+
+zakladne principy SCRUM
+-funguje na principe sprintov
+sprint - su cykli kt. sa pocas projektu pohybujeme
+
+ak pocas sprint nastane problem - vieme si ho povedat
+a vieme po tom sprinte si povedat ze sa mame toho a toho vyhnut
+
+napr. zakaznik pocas vyvoja vymysla - mozme spravit 
+toto a toto, chcem inak
+tu metoda waterfall zlyha - ak povie zakaznik ze chce zmenit
+stenu o pol metra 
+
+preto agilita je viac vhodna
+
+
+casti scrumu- backup backlog
+krabica
+z kt. si vyberame konkretne ulohy s kt. chceme robit
+backlog hlavne robi scrum master a backloader??
+
+spring-backlog - mensia krabica
+tam su ulohy kt. budeme robit na nasledujuci cyklus
+
+sprint - aktualna iteracia na kt. sa pracuje
+napr. mame sprint kazdu stredu??
+
+v byvalom time trval sprint 3 tyzdne
+-takze vsetko zavisi od projektu
+ako casto sa menia v projektu body prace
+
+cely scrum je dost flexibilny - my napr. mozme pouzivat len
+polovicu
+scrum je nato aby on sa prisposobovala nam a nie my jemu
+
+increment - vhodna na pretestovanie alebo na hotove odovzdavanie zakaznikovy
+
+
+
+SCRUM tim
+ma 3 hlavne roli, kt. je product owner
+je nutne to aby komunikoval so zakaznikom
+u neho nieje potrebne aby mal niejaku ulohu ze vie o tom
+programovani alebo o technickych veciach (ale stale je to velmi vitane)
+
+lebo ak on nevie nic o IT - tak on a zakaznik mozu sa dohodnut
+na velmi velkych poziadavkach kt. nebudu splnitelne a az potom
+developer povie ze sa to neda spravit
+
+scrum master - ma dohliadat v akom stave su sprinty, backlog
+v akom stave su jednotlive ulohy, ci sa splnaju ciele
+
+scrum master ma ulohu najst niekoho alebo nieco kt. nas problem vyriesi
+
+aby naplnili samotny backlog - urobi sa meeting "pre-planning"
+oni sa tam vsetko dohodnu
+scrum master - vsetko zapise do backlogu
+
+akym principom funguje samotny scrum?
+
+ako prve chceme prijat project a zacat planovat
+
+jeden zastupca scrum mastera, developera, zakaznici
+zozbieraju sa info a nasledne sa ide na dizajn toho projektu
+teraz sme na to istom urovni ako na waterfall
+
+
+1 man-day je 15 hodin
+(not sure where he has that info from, i found 1 MD = 8 hours)
+
+
+------....
+
+potom ide na rade testovanie, potom review
+-zakaznici sa ho zucastia asi po 10 iteracii/sprintu
